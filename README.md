@@ -1,31 +1,31 @@
-#Task - 01
-1) Write a program to print the numbers from 10 to 50 using for loop/while loop.
+#Task - 02
 
-2) Write a program that find a given number is negative or positive.
+1.1) Create a class Person with properties (name and age) with following features.
 
-3) Write down the program to reverse the given number using loops.
+a. Default age of person should be 18:
 
-Input = 876
+b. A person object can be initialized with name and age:
 
-Output =678
+c. Method to display name and age of person
 
-4) Write a java program to Find the smallest number among three numbers.
+1.2). Create class Product (pid, price, quantity) with parameterized constructor. Create a main function in different class (say XYZ) and perform following task:
 
-5) Write a Java program that takes the purchase amount as input and calculates the final payable amount after applying the discount.
-     1. If the purchase amount is less than 500, no discount is applied.
+a.Accept five product information from user and store in an array
 
-    2. If the purchase amount is between 500 and 1000, a 10% discount is applied.
+b. Find Pid of the product with the highest price.
 
-     3. If the purchase amount is greater than 1000 a 20% discount is applied.
+c. Create method (with array of product's object as argument) in XYZ class to calculate and return the total amount spent on all products. (amount spent on single produet-price of product quantity of product
 
-6) Write a java program to print bellowed pattern >i and j and k=>5
+1.3) Create Class Account with data member As Balance. Create two constructors (no argument, and two arguments) and perform following task
 
-55555
+a. method to deposit the amount to the account.
 
-54444
+b. method to withdraw the amount from the account.
 
-54333
+c. method to display the Balance
 
-54322
+1.4) Define a base class Person with attributes name and age.
 
-54321
+Create a subclass Employee that inherits from Person and adds attributes like employeeID and salary.
+
+Use the super keyword to initialize the Person attributes in the Employee constructor.
