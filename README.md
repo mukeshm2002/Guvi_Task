@@ -1,31 +1,15 @@
-#Task - 02
+#Task 02
 
-1.1) Create a class Person with properties (name and age) with following features.
+01.Management System
 
-a. Default age of person should be 18:
+1.Design a Java program that uses OOP principles to model the Book Create two classes: Book and Library. The Book class should have attributes such as bookID, title, author, and isAvailable.The Library class should include an array to store book objects.
+2.Provide methods to add books, remove book search books (using id)and display books.
+Write a Java program that demonstrates the use of these classes and methods by allowing the user to interact with the library system.
 
-b. A person object can be initialized with name and age:
+02..Create Interface Taxable with members sales Tax=7% and income Tax-10.5%. create abstract method calcTax().
 
-c. Method to display name and age of person
+a. Create class Employee(empId.name, salary) and implement Taxable to calculate income Tax on yearly salary.
 
-1.2). Create class Product (pid, price, quantity) with parameterized constructor. Create a main function in different class (say XYZ) and perform following task:
+b. Create class Product(pid.price,quantity) and implement Taxable to calculate sales Tax on unit price of product.
 
-a.Accept five product information from user and store in an array
-
-b. Find Pid of the product with the highest price.
-
-c. Create method (with array of product's object as argument) in XYZ class to calculate and return the total amount spent on all products. (amount spent on single produet-price of product quantity of product
-
-1.3) Create Class Account with data member As Balance. Create two constructors (no argument, and two arguments) and perform following task
-
-a. method to deposit the amount to the account.
-
-b. method to withdraw the amount from the account.
-
-c. method to display the Balance
-
-1.4) Define a base class Person with attributes name and age.
-
-Create a subclass Employee that inherits from Person and adds attributes like employeeID and salary.
-
-Use the super keyword to initialize the Person attributes in the Employee constructor.
+c. Create class for main method(Say DriverMain), accept employee information and a product information from user and print income tax and sales tax respectively
