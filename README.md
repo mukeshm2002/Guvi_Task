@@ -1,15 +1,32 @@
-#Task 03
+#Task- 04
 
-01.Management System
+Question No : 1
 
-1.Design a Java program that uses OOP principles to model the Book Create two classes: Book and Library. The Book class should have attributes such as bookID, title, author, and isAvailable.The Library class should include an array to store book objects.
-2.Provide methods to add books, remove book search books (using id)and display books.
-Write a Java program that demonstrates the use of these classes and methods by allowing the user to interact with the library system.
+Ramesh is developing a student management system for a university. In this system, you have a Student class to represent student information. You are asked to help Ramesh to handle exception which can be occurred into program according to following Scenarios:
 
-02..Create Interface Taxable with members sales Tax=7% and income Tax-10.5%. create abstract method calcTax().
+1.class Student with attributes roll no, name, age and course. Initialize values through parameterized constructor.
 
-a. Create class Employee(empId.name, salary) and implement Taxable to calculate income Tax on yearly salary.
+2.If the age of the student is not between 15 and 21 then generate a user-defined exception "AgeNotWithinRangeException".
 
-b. Create class Product(pid.price,quantity) and implement Taxable to calculate sales Tax on unit price of product.
+3.If a name contains numbers or special symbols, raise exception "NameNot ValidException". Define the two exception classes.
 
-c. Create class for main method(Say DriverMain), accept employee information and a product information from user and print income tax and sales tax respectively
+Question No : 2
+
+Create a class Voter(voterId, name, age) with parameterized constructor. The parameterized constructor should throw a checked exception if age is less than 18. The message of exception is "invalid age for voter"
+
+Question No : 3
+
+Store name of weekdays in an array (starting from "Sunday" at 0 index). Ask day position from user and print day name. Handle array index out of bound exception and give proper message if user enters day index outside range (0-6).
+
+Question No : 4
+
+Create a HashMap where keys are student names (strings) and values are their corresponding grades (integers). Create methods to add a new student, remove a student, and Display up a student's grade by name.
+
+Question No : 5
+
+Use Collection Classes to store Integers.Create some methods for following functionalities.
+
+a. Include functions for pushing elements onto the stack.
+
+b. popping elements from the stack.
+
