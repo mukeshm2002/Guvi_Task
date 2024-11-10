@@ -1,32 +1,19 @@
-#Task- 04
+#Task - 05
 
-Question No : 1
+1. Write a program using map() method, to convert a list of Strings into uppercase. If the given List is: Stream names = Stream.of("aBc", "d", "ef");
 
-Ramesh is developing a student management system for a university. In this system, you have a Student class to represent student information. You are asked to help Ramesh to handle exception which can be occurred into program according to following Scenarios:
+2. Write a program to check whether the Strings in the List are empty or not and print the list having non-empty strings. If the given List is: Liststrings = Arrays.asList("abc", "be", "efg", "abcd","", "jkl");
 
-1.class Student with attributes roll no, name, age and course. Initialize values through parameterized constructor.
+3. You are a teacher in school .In your class there are 10 students, you have decided to give special gifts to those students whose names start with "A" you are asked to separate those students with the help of a java program.
 
-2.If the age of the student is not between 15 and 21 then generate a user-defined exception "AgeNotWithinRangeException".
+Requirement:
 
-3.If a name contains numbers or special symbols, raise exception "NameNot ValidException". Define the two exception classes.
+• Use List interface to store the student name
 
-Question No : 2
+• Use a lambda expression and the Stream API to filter the students
 
-Create a class Voter(voterId, name, age) with parameterized constructor. The parameterized constructor should throw a checked exception if age is less than 18. The message of exception is "invalid age for voter"
+4. Rajesh has been given a task to create an app which takes the user's birthdate as input and calculates their age you have to help him to build this app using the java.time.LocalDate class.
 
-Question No : 3
+Input: Enter your birthdate (yyyy-mm-dd): 1990-05-15
 
-Store name of weekdays in an array (starting from "Sunday" at 0 index). Ask day position from user and print day name. Handle array index out of bound exception and give proper message if user enters day index outside range (0-6).
-
-Question No : 4
-
-Create a HashMap where keys are student names (strings) and values are their corresponding grades (integers). Create methods to add a new student, remove a student, and Display up a student's grade by name.
-
-Question No : 5
-
-Use Collection Classes to store Integers.Create some methods for following functionalities.
-
-a. Include functions for pushing elements onto the stack.
-
-b. popping elements from the stack.
-
+Output: Your age is: 33 years, 4 months, and 13 days.
