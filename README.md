@@ -1,8 +1,6 @@
-#Task - 06
+##Task - 06
 
 Mini Task
-
-## HTML Task to know usage of basic tags.
 
 1. Fix the bugs in below snippet
 
