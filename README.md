@@ -1,19 +1,69 @@
-#Task - 05
+#Task - 06
 
-1. Write a program using map() method, to convert a list of Strings into uppercase. If the given List is: Stream names = Stream.of("aBc", "d", "ef");
+Mini Task
 
-2. Write a program to check whether the Strings in the List are empty or not and print the list having non-empty strings. If the given List is: Liststrings = Arrays.asList("abc", "be", "efg", "abcd","", "jkl");
+## HTML Task to know usage of basic tags.
 
-3. You are a teacher in school .In your class there are 10 students, you have decided to give special gifts to those students whose names start with "A" you are asked to separate those students with the help of a java program.
+1. Fix the bugs in below snippet
 
-Requirement:
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+```
+2. Try the below one
 
-• Use List interface to store the student name
+```HTML
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
 
-• Use a lambda expression and the Stream API to filter the students
+3. Design a contact us form with all fields as required.
 
-4. Rajesh has been given a task to create an app which takes the user's birthdate as input and calculates their age you have to help him to build this app using the java.time.LocalDate class.
 
-Input: Enter your birthdate (yyyy-mm-dd): 1990-05-15
+4. Use certain HTML elements to display the following in a HTML page.
 
-Output: Your age is: 33 years, 4 months, and 13 days.
+- Programming Language
+  - JavaScript
+    1. Angular
+    2. React
+    3. Vue.js
+  - Python
+    1. Django Framework
+    2. Flask Framework
+  - Java
+    1. Spring
+    2. Maven
+    3. Hibernate
+- Database
+  - MySQL
+  - MongoDB
+  - Cansandra
+
+
+5. Create an element that helps you to open the https://google.com in separate new tab.
+
+
+6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
