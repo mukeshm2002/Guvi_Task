@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Input Elements</title>
+</head>
+<body>
+    <h1>HTML Input Elements</h1>
+
+    <form action="#" method="POST">
+        <!-- Text Input -->
+        <label for="text">Text Input:</label>
+        <input type="text" id="text" name="text" placeholder="Enter text"><br><br>
+
+        <!-- Password Input -->
+        <label for="password">Password Input:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password"><br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email Input:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email"><br><br>
+
+        <!-- Number Input -->
+        <label for="number">Number Input:</label>
+        <input type="number" id="number" name="number" min="1" max="100" step="1" placeholder="Enter a number"><br><br>
+
+        <!-- Date Input -->
+        <label for="date">Date Input:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <!-- Time Input -->
+        <label for="time">Time Input:</label>
+        <input type="time" id="time" name="time"><br><br>
+
+        <!-- DateTime Input -->
+        <label for="datetime">Date and Time Input:</label>
+        <input type="datetime-local" id="datetime" name="datetime"><br><br>
+
+        <!-- Range Input -->
+        <label for="range">Range Input:</label>
+        <input type="range" id="range" name="range" min="0" max="100" step="1"><br><br>
+
+        <!-- Color Input -->
+        <label for="color">Color Input:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <!-- File Input -->
+        <label for="file">File Input:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <!-- Radio Button -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkbox -->
+        <label for="newsletter">Subscribe to newsletter:</label>
+        <input type="checkbox" id="newsletter" name="newsletter" value="yes"><br><br>
+
+        <!-- Select Dropdown -->
+        <label for="country">Select Country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments"></textarea><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

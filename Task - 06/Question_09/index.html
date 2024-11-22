@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements with Default Values</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <!-- Text input -->
+        <label for="text">Text: </label>
+        <input type="text" id="text" name="text" value="Default Text"><br><br>
+
+        <!-- Password input -->
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" value="password123"><br><br>
+
+        <!-- Number input -->
+        <label for="number">Number: </label>
+        <input type="number" id="number" name="number" value="42"><br><br>
+
+        <!-- Email input -->
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" value="example@example.com"><br><br>
+
+        <!-- URL input -->
+        <label for="url">URL: </label>
+        <input type="url" id="url" name="url" value="https://example.com"><br><br>
+
+        <!-- Date input -->
+        <label for="date">Date: </label>
+        <input type="date" id="date" name="date" value="2024-11-21"><br><br>
+
+        <!-- Time input -->
+        <label for="time">Time: </label>
+        <input type="time" id="time" name="time" value="12:30"><br><br>
+
+        <!-- Color input -->
+        <label for="color">Color: </label>
+        <input type="color" id="color" name="color" value="#ff5733"><br><br>
+
+        <!-- Checkbox -->
+        <label for="checkbox">Checkbox: </label>
+        <input type="checkbox" id="checkbox" name="checkbox" checked><br><br>
+
+        <!-- Radio buttons -->
+        <label>Radio Buttons: </label>
+        <input type="radio" id="radio1" name="radio" value="Option 1" checked>
+        <label for="radio1">Option 1</label>
+        <input type="radio" id="radio2" name="radio" value="Option 2">
+        <label for="radio2">Option 2</label><br><br>
+
+        <!-- Dropdown menu -->
+        <label for="select">Select: </label>
+        <select id="select" name="select">
+            <option value="Option 1" selected>Option 1</option>
+            <option value="Option 2">Option 2</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for="textarea">Textarea: </label>
+        <textarea id="textarea" name="textarea">Default text in textarea</textarea><br><br>
+
+        <!-- Range input -->
+        <label for="range">Range: </label>
+        <input type="range" id="range" name="range" value="50" min="0" max="100"><br><br>
+
+        <!-- File input -->
+        <label for="file">File: </label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
