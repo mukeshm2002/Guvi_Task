@@ -1,0 +1,9 @@
+src/main/java/com/example/mongodbrestapi
+                          ├── controller
+                          │   └── EmployeeController.java
+                          ├── model
+                          │   └── Employee.java
+                          ├── repository
+                          │   └── EmployeeRepository.java
+                          └── application
+                          └── MongodbRestApiApplication.java
